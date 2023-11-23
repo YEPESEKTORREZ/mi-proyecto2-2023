@@ -8,14 +8,14 @@
     background-color: #67999a;
 }#contenidoCuerpo{
     width: 100%;
-    height: 500px;
+    padding-top: 50px;
     border: solid black 1px;
     background-color: #d3ee9f;
     display: flex;
 }
 footer{
     width: 100%;
-    height: 200px;
+   
     border: solid black 1px;
 }
 #CabeceraImagenNombre{
@@ -64,4 +64,60 @@ ul li a:hover{
     font-size: 20px;
     text-decoration: underline dashed 2px #550101;
     background-color: #550101;
+}
+#LogoInicio{
+    background-image: url(/img/Recurso\ 7.png);
+    padding: 2px 0 0 20px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+}
+#cuerpoImagen{
+    flex: 40%;
+}
+#CuerpoDatos{
+    flex: 60%;
+}
+#bordeImagen{
+    background-color: #D46b68;
+    padding: 20px;
+    text-align: center;
+    width: 65%;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+#detalleDatos{
+    width: 70%;
+    padding: 20px;
+}
+#botones{
+    display: flex;
+    margin-top: 20px;
+}
+#botonfaborito{
+    flex: 50%;
+}
+#botonUbicacion{
+    flex: 50%;
+}
+#marcoFavorito{
+    background-color: #cccccc;
+    width: 250px;
+    background-image: url(/img/Recurso\ 13.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 20px 0px 20px 60px;
+    background-position: left 30px center;
+    border-radius: 10px;
+}
+#marcoFavorito:hover{
+    opacity: 80%;
+    cursor: pointer;
 }
