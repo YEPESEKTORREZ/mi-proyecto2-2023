@@ -15,8 +15,9 @@
 }
 footer{
     width: 100%;
-   
-    border: solid black 1px;
+    background-color: #7B9E35;;
+    padding: 30px;
+    display: flex;
 }
 #CabeceraImagenNombre{
     flex: 30%;
@@ -117,7 +118,46 @@ h1{
     background-position: left 30px center;
     border-radius: 10px;
 }
-#marcoFavorito:hover{
+.diseñoBoton:hover{
     opacity: 80%;
     cursor: pointer;
+}
+#MarcoUbicacion{
+    background-color: #cccccc;
+    width: 250px;
+    background-image: url(/img/Recurso\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    padding: 20px 0px 20px 60px;
+    background-position: left 30px center;
+    border-radius: 10px;   
+}
+#DiseñoBoton{
+    display: flex;
+    margin-top: 30px;
+}
+#diseñoBoton:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+#ul il:last-child{
+    border-right: none;
+}
+#marcoMenuFooter{
+    flex: 15%;
+}
+#marcoDetalleFooter{
+    flex: 40%;
+}
+#marcoRedesFooter{
+    flex: 45%;
+}
+.footerRedes{
+    display: inline;
+}
+li img{
+    width: 28px;
+}
+.footerRedes li{
+    border: none;
 }
