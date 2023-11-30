@@ -144,13 +144,22 @@ h1{
     border-right: none;
 }
 #marcoMenuFooter{
-    flex: 15%;
+    flex: 15;
 }
 #marcoDetalleFooter{
-    flex: 40%;
+    position: relative;
+    flex: 35%;
+    animation: move 40s infinite;
+    text-align: center;
+}
+@keyframes move{
+    from{top: 0px;}
+    to{ top: 40px;}
+    
 }
 #marcoRedesFooter{
     flex: 45%;
+    text-align: right;
 }
 .footerRedes{
     display: inline;
@@ -160,4 +169,28 @@ li img{
 }
 .footerRedes li{
     border: none;
+}
+#foterMenu{
+    display: flex;
+    padding: 30px;
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 50px;
+}
+li img:hover{
+    opacity: 60%;
+    width: 4%;
+}
+footer{ 
+    position: absolute;
+    bottom: 0; 
 }
